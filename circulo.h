@@ -5,7 +5,7 @@ typedef void *Circulo;
 
 /*
  *Cria a struct circulo
- *As informações do circulo são passadas por referência
+ *As informações do circulo são passadas por parametro
  *retorna o apontador para essa estrutura
  */
 Circulo cria_circulo(char id[20], char corb[20], char corp[20], double x, double y, double r);
